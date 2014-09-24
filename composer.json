@@ -33,6 +33,7 @@
         "phpseclib/phpseclib": "dev-master",
         "doctrine/dbal": ">=2.3",
         "dropbox-php/dropbox-php": "*",
+        "dropbox/dropbox-sdk": "1.1.*", 
         "herzult/php-ssh": "*",
         "phpunit/phpunit": "3.7.*",
         "microsoft/windowsazure": "dev-master",
@@ -41,6 +42,7 @@
     "suggest": {
         "knplabs/knp-gaufrette-bundle": "to use with Symfony2",
         "dropbox-php/dropbox-php": "to use the Dropbox adapter",
+        "dropbox/dropbox-sdk": "to use the Dropbox (OAuth2) adapter",
         "rackspace/php-opencloud"  : "to use Opencloud adapter",
         "herzult/php-ssh": "to use SFtp adapter",
         "phpseclib/phpseclib": "to use PhpseclibSftp adapter",
@@ -60,7 +62,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.2.x-dev"
+            "dev-master": "0.2.x-dev",
+            "dev-feature/PMII-1081": "0.3.x-dev
         }
     },
     "config": {
